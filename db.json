@@ -1,4 +1,24 @@
 {
+  "user": [
+    {
+      "id": 1,
+      "name": "SomeOne",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 2,
+      "name": "SomeOne2",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 3,
+      "name": "SomeOne3",
+      "address": "VietNam",
+      "phone": "01234567890"
+    }
+  ],
   "cart": [
     {
       "id": 1,
@@ -429,30 +449,19 @@
   ],
   "login": [
     {
-      "userName": "user1",
-      "password": "abc123",
-      "user": {
-        "name": "SomeOne",
-        "address": "VietNam",
-        "phone": "01234567890"
-      }
-    },
-    {
       "userName": "user2",
       "password": "abc123",
-      "user": {
-        "name": "SomeOne",
-        "address": "VietNam",
-        "phone": "01234567890"
-      }
-    }, {
+      "userId": 2
+    },
+    {
+      "userName": "user1",
+      "password": "abc123",
+      "userId": 1
+    },
+    {
       "userName": "user3",
       "password": "abc123",
-      "user": {
-        "name": "SomeOne",
-        "address": "VietNam",
-        "phone": "01234567890"
-      }
+      "userId": 3
     }
   ]
 }
