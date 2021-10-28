@@ -1,28 +1,9 @@
 {
-  "user": [
-    {
-      "id": 1,
-      "name": "SomeOne",
-      "address": "VietNam",
-      "phone": "01234567890"
-    },
-    {
-      "id": 2,
-      "name": "SomeOne2",
-      "address": "VietNam",
-      "phone": "01234567890"
-    },
-    {
-      "id": 3,
-      "name": "SomeOne3",
-      "address": "VietNam",
-      "phone": "01234567890"
-    }
-  ],
+ 
   "cart": [
     {
       "id": 1,
-      "userId": 4,
+      "user": "user1",
       "items": [
         {
           "id": 1,
@@ -48,7 +29,7 @@
     },
     {
       "id": 2,
-      "userId": 4,
+      "user": "user2",
       "items": [
         {
           "id": 1,
@@ -74,189 +55,7 @@
     },
     {
       "id": 3,
-      "userId": 4,
-      "items": [
-        {
-          "id": 1,
-          "productId": 1
-        },
-        {
-          "id": 2,
-          "productId": 4
-        },
-        {
-          "id": 3,
-          "productId": 3
-        },
-        {
-          "id": 4,
-          "productId": 2
-        },
-        {
-          "id": 5,
-          "productId": 1
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "userId": 8,
-      "items": [
-        {
-          "id": 1,
-          "productId": 1
-        },
-        {
-          "id": 2,
-          "productId": 4
-        },
-        {
-          "id": 3,
-          "productId": 3
-        },
-        {
-          "id": 4,
-          "productId": 2
-        },
-        {
-          "id": 5,
-          "productId": 1
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "userId": 5,
-      "items": [
-        {
-          "id": 1,
-          "productId": 1
-        },
-        {
-          "id": 2,
-          "productId": 4
-        },
-        {
-          "id": 3,
-          "productId": 3
-        },
-        {
-          "id": 4,
-          "productId": 2
-        },
-        {
-          "id": 5,
-          "productId": 1
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "userId": 1,
-      "items": [
-        {
-          "id": 1,
-          "productId": 1
-        },
-        {
-          "id": 2,
-          "productId": 4
-        },
-        {
-          "id": 3,
-          "productId": 3
-        },
-        {
-          "id": 4,
-          "productId": 2
-        },
-        {
-          "id": 5,
-          "productId": 1
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "userId": 1,
-      "items": [
-        {
-          "id": 1,
-          "productId": 1
-        },
-        {
-          "id": 2,
-          "productId": 4
-        },
-        {
-          "id": 3,
-          "productId": 3
-        },
-        {
-          "id": 4,
-          "productId": 2
-        },
-        {
-          "id": 5,
-          "productId": 1
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "userId": 3,
-      "items": [
-        {
-          "id": 1,
-          "productId": 1
-        },
-        {
-          "id": 2,
-          "productId": 4
-        },
-        {
-          "id": 3,
-          "productId": 3
-        },
-        {
-          "id": 4,
-          "productId": 2
-        },
-        {
-          "id": 5,
-          "productId": 1
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "userId": 3,
-      "items": [
-        {
-          "id": 1,
-          "productId": 1
-        },
-        {
-          "id": 2,
-          "productId": 4
-        },
-        {
-          "id": 3,
-          "productId": 3
-        },
-        {
-          "id": 4,
-          "productId": 2
-        },
-        {
-          "id": 5,
-          "productId": 1
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "userId": 3,
+      "user": "user3",
       "items": [
         {
           "id": 1,
@@ -280,6 +79,7 @@
         }
       ]
     }
+    
   ],
   "type": [
     {
@@ -447,21 +247,28 @@
       "status": 0
     }
   ],
-  "login": [
+  "user": [
     {
       "userName": "user2",
       "password": "abc123",
-      "userId": 2
+      "name": "SomeOne",
+      "address": "VietNam",
+      "phone": "01234567890"
     },
     {
       "userName": "user1",
       "password": "abc123",
-      "userId": 1
+      "name": "SomeOne",
+      "address": "VietNam",
+      "phone": "01234567890"
+      
     },
     {
       "userName": "user3",
       "password": "abc123",
-      "userId": 3
+      "name": "SomeOne",
+      "address": "VietNam",
+      "phone": "01234567890"
     }
   ]
 }
