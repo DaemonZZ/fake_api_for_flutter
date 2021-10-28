@@ -1,14 +1,499 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "user": [
+    {
+      "id": 1,
+      "name": "SomeOne",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 2,
+      "name": "SomeOne2",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 3,
+      "name": "SomeOne3",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 4,
+      "name": "SomeOne4",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 5,
+      "name": "SomeOne5",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 6,
+      "name": "SomeOne6",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 7,
+      "name": "SomeOne7",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 8,
+      "name": "SomeOne8",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 9,
+      "name": "SomeOne9",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 10,
+      "name": "SomeOne10",
+      "address": "VietNam",
+      "phone": "01234567890"
+    },
+    {
+      "id": 11,
+      "name": "SomeOne11",
+      "address": "VietNam",
+      "phone": "01234567890"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  
+  "cart": [
+    {
+      "id": 1,
+      "userId": 4,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 8,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "userId": 3,
+      "items": [
+        {
+          "id": 1,
+          "productId": 1
+        },
+        {
+          "id": 2,
+          "productId": 4
+        },
+        {
+          "id": 3,
+          "productId": 3
+        },
+        {
+          "id": 4,
+          "productId": 2
+        },
+        {
+          "id": 5,
+          "productId": 1
+        }
+      ]
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "type": [
+    {
+      "id": 1,
+      "typeName": "Bag"
+    },
+    {
+      "id": 2,
+      "typeName": "Shoe"
+    },
+    {
+      "id": 3,
+      "typeName": "Shirt"
+    },
+    {
+      "id": 4,
+      "typeName": "Trousers"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "title": "Any Bag",
+      "image": "bag_1.png",
+      "price": 234,
+      "color": "0xFF3D82AE",
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "title": "Any Bag",
+      "image": "bag_2.png",
+      "price": 234,
+      "color": "0xFFD3A984",
+      "typeId": 1
+    },
+    {
+      "id": 3,
+      "title": "Any Bag",
+      "image": "bag_3.png",
+      "price": 234,
+      "color": "0xFF989493",
+      "typeId": 1
+    },
+    {
+      "id": 4,
+      "title": "Any Bag",
+      "image": "bag_4.png",
+      "price": 234,
+      "color": "0xFFE6B398",
+      "typeId": 1
+    },
+    {
+      "id": 5,
+      "title": "Any Bag",
+      "image": "bag_5.png",
+      "price": 234,
+      "color": "0xFFFB7883",
+      "typeId": 1
+    },
+    {
+      "id": 6,
+      "title": "Any Bag",
+      "image": "bag_6.png",
+      "price": 234,
+      "color": "0xFFAEAEAE",
+      "typeId": 1
+    },
+    {
+      "id": 7,
+      "title": "Any Bag",
+      "image": "bag_5.png",
+      "price": 234,
+      "color": "0xFFAEAEAE",
+      "typeId": 1
+    },
+    {
+      "id": 8,
+      "title": "Any Bag",
+      "image": "bag_4.png",
+      "price": 234,
+      "color": "0xFFFB7883",
+      "typeId": 1
+    },
+    {
+      "id": 9,
+      "title": "Any Bag",
+      "image": "bag_3.png",
+      "price": 234,
+      "color": "0xFFE6B398",
+      "typeId": 1
+    },
+    {
+      "id": 10,
+      "title": "Any Bag",
+      "image": "bag_2.png",
+      "price": 234,
+      "color": "0xFF989493",
+      "typeId": 1
+    },
+    {
+      "id": 11,
+      "title": "Any Bag",
+      "image": "bag_1.png",
+      "price": 234,
+      "color": "0xFF3D82AE",
+      "typeId": 1
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "Russia",
+      "phone": "01234567890",
+      "total": 2563,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "Russia",
+      "phone": "01234567890",
+      "total": 2563,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "Russia",
+      "phone": "01234567890",
+      "total": 2563,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "Russia",
+      "phone": "01234567890",
+      "total": 2563,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "Russia",
+      "phone": "01234567890",
+      "total": 2563,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "Russia",
+      "phone": "01234567890",
+      "total": 2563,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "address": "Russia",
+      "phone": "01234567890",
+      "total": 2563,
+      "status": 0
+    }
+  ]
 }
