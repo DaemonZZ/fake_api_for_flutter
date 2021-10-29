@@ -103,6 +103,7 @@
     {
       "id": 1,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_1.png",
       "price": 234,
       "color": "0xFF3D82AE",
@@ -111,6 +112,7 @@
     {
       "id": 2,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_2.png",
       "price": 234,
       "color": "0xFFD3A984",
@@ -119,6 +121,7 @@
     {
       "id": 3,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_3.png",
       "price": 234,
       "color": "0xFF989493",
@@ -127,6 +130,7 @@
     {
       "id": 4,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_4.png",
       "price": 234,
       "color": "0xFFE6B398",
@@ -135,6 +139,7 @@
     {
       "id": 5,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_5.png",
       "price": 234,
       "color": "0xFFFB7883",
@@ -143,6 +148,7 @@
     {
       "id": 6,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_6.png",
       "price": 234,
       "color": "0xFFAEAEAE",
@@ -151,6 +157,7 @@
     {
       "id": 7,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_5.png",
       "price": 234,
       "color": "0xFFAEAEAE",
@@ -159,6 +166,7 @@
     {
       "id": 8,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_4.png",
       "price": 234,
       "color": "0xFFFB7883",
@@ -167,6 +175,7 @@
     {
       "id": 9,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_3.png",
       "price": 234,
       "color": "0xFFE6B398",
@@ -175,6 +184,7 @@
     {
       "id": 10,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_2.png",
       "price": 234,
       "color": "0xFF989493",
@@ -183,6 +193,7 @@
     {
       "id": 11,
       "title": "Any Bag",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. When an unknown printer took a galley.",
       "image": "bag_1.png",
       "price": 234,
       "color": "0xFF3D82AE",
