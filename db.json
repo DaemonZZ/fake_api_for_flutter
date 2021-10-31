@@ -125,7 +125,7 @@
       "image": "bag_3.png",
       "price": 234,
       "color": "0xFF989493",
-      "typeId": 1
+      "typeId": 2
     },
     {
       "id": 4,
@@ -170,7 +170,7 @@
       "image": "bag_4.png",
       "price": 234,
       "color": "0xFFFB7883",
-      "typeId": 1
+      "typeId": 2
     },
     {
       "id": 9,
@@ -179,7 +179,7 @@
       "image": "bag_3.png",
       "price": 234,
       "color": "0xFFE6B398",
-      "typeId": 1
+      "typeId": 2
     },
     {
       "id": 10,
@@ -188,7 +188,7 @@
       "image": "bag_2.png",
       "price": 234,
       "color": "0xFF989493",
-      "typeId": 1
+      "typeId": 3
     },
     {
       "id": 11,
@@ -197,7 +197,7 @@
       "image": "bag_1.png",
       "price": 234,
       "color": "0xFF3D82AE",
-      "typeId": 1
+      "typeId": 4
     }
   ],
   "order": [
